@@ -1,0 +1,282 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "081f055a-e088-41a5-a0d9-c4897cf850db")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 156.21 81.28) (xy 156.21 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80411128-b3af-463c-8865-98623fa316f7")
+	)
+	(wire
+		(pts
+			(xy 156.21 100.33) (xy 171.45 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3a76bbf-7669-4e15-a276-8d0eac1c4e41")
+	)
+	(wire
+		(pts
+			(xy 156.21 63.5) (xy 171.45 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4254ce4-2eae-4337-b52d-26f44a066fdb")
+	)
+	(wire
+		(pts
+			(xy 171.45 81.28) (xy 156.21 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfba6c39-c181-40a7-b31a-d222ebc67550")
+	)
+	(wire
+		(pts
+			(xy 156.21 118.11) (xy 171.45 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0d128dd-26a9-403e-8a92-69f3c833150d")
+	)
+	(sheet
+		(at 87.63 43.18)
+		(size 68.58 120.65)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "40c6c071-33cb-4d7b-b38c-9a2f4aa728f9")
+		(property "Sheetname" "ESP32_Controller"
+			(at 87.63 42.4684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "esp32_controller.kicad_sch"
+			(at 87.63 164.4146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Relay_1" input
+			(at 156.21 63.5 0)
+			(uuid "91341b53-b70b-4b4f-8c4b-b1a711b25643")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Relay_2" input
+			(at 156.21 82.55 0)
+			(uuid "c70283e6-8219-4cc8-973d-eab0a0dbf8e0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Relay_3" input
+			(at 156.21 100.33 0)
+			(uuid "dcf816e2-e947-4b0c-9ebf-ba4ec3de03bc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Relay_4" input
+			(at 156.21 118.11 0)
+			(uuid "fcb1ffa9-4aeb-40cc-ac50-276b10343ab9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "smarthomeiot"
+				(path "/081f055a-e088-41a5-a0d9-c4897cf850db"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 41.91)
+		(size 45.72 123.19)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "4dd5603a-5e1e-48f7-b121-eb0344162835")
+		(property "Sheetname" "Power_Supply"
+			(at 25.4 41.1984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_supply.kicad_sch"
+			(at 25.4 165.6846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "smarthomeiot"
+				(path "/081f055a-e088-41a5-a0d9-c4897cf850db"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 171.45 43.18)
+		(size 101.6 120.65)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "8c804cfe-9bda-4018-b2b3-16e2d8e5a09f")
+		(property "Sheetname" "Relay_Outputs"
+			(at 171.45 42.4684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "relay_outputs.kicad_sch"
+			(at 171.45 164.4146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Relay_1" input
+			(at 171.45 63.5 180)
+			(uuid "79de10cf-fa33-4721-b39b-75ae767710fc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Relay_2" input
+			(at 171.45 81.28 180)
+			(uuid "b224a457-db30-4741-b5a6-c459caff092b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Relay_3" input
+			(at 171.45 100.33 180)
+			(uuid "c1d164fd-7f98-4e38-a6b8-1a42538184f4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Relay_4" input
+			(at 171.45 118.11 180)
+			(uuid "f8c3eafc-4607-47ee-9587-353fde4c64f3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "smarthomeiot"
+				(path "/081f055a-e088-41a5-a0d9-c4897cf850db"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
